@@ -36,7 +36,7 @@ pip install --upgrade langchain
 
 **注册OpenAI账号，获取专属API Key**👉 👉[OpenAI](https://platform.openai.com/account/api-keys)
 
-![Step3_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/step3_01.png?raw=true)
+<img src="https://github.com/wang-hanwen/gpt-api-demo/blob/main/step3_01.png?raw=true" alt="Step3_01" style="zoom:67%;" />
 
 API Key是一串包含字母和数字的字符。如图中介绍，不要将你的API Key分享给他人‼️ 这是该账号专属的，**经该API Key调用产生的费用也会由这个账号承担**
 
