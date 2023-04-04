@@ -117,7 +117,7 @@ print("\n --- END ---")
 
 ![Step3_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/step5_01.png?raw=true)
 
-### 报错
+### 报错解决
 
 报错`Cannot connect to proxy` 梯子的代理问题，与节点无关，请更换梯子
 
