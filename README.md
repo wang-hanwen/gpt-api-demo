@@ -36,7 +36,7 @@ pip install --upgrade langchain
 
 **注册OpenAI账号，获取专属API Key**👉 👉[OpenAI](https://platform.openai.com/account/api-keys)
 
-<img src="https://github.com/wang-hanwen/gpt-api-demo/blob/main/step3_01.png?raw=true" alt="Step3_01" style="zoom:67%;" />
+![Step3_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/step3_01.png?raw=true)
 
 API Key是一串包含字母和数字的字符。如图中介绍，不要将你的API Key分享给他人‼️ 这是该账号专属的，**经该API Key调用产生的费用也会由这个账号承担**
 
@@ -115,7 +115,7 @@ print("\n --- END ---")
 
 ### 运行成功实例
 
-<img src="step5_01.png" alt="step5_01" style="zoom:67%;" />
+![Step3_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/step5_01.png?raw=true)
 
 ### 报错
 
@@ -125,7 +125,7 @@ print("\n --- END ---")
 
 本程序中的`gpt-3.5-turbo`接口费用是$0.002 / 1K tokens，**每个账户有 \$18的免费额度**。这个价格是非常便宜的，免费额度对于个人日常需求而言已经足够，如果超过就需要付费了。查看目前使用量及额外付费👉👉[Open AI Account](https://platform.openai.com/account/usage)
 
-<img src="step5_02.png" alt="step5_02" style="zoom:67%;" />
+![Step3_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/step5_02.png?raw=true)
 
 ### 其余注意事项
 
