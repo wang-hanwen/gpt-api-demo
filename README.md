@@ -119,11 +119,22 @@ print("\n --- END ---")
 
 ### 报错解决
 
-报错`Cannot connect to proxy` 梯子的代理问题，与节点无关，请更换梯子
+- `Cannot connect to proxy` 梯子的代理问题，与节点无关，请更换梯子
+
+- `HTTPSConnectionPool(host='api.openai.com', port=443)`URL访问包版本问题，重装指定版本`urllib3`
+
+  ```python
+  pip uninstall urllib3
+  pip install urllib3==1.25.11
+  ```
+
+  
 
 ### 关于API调用收费‼️‼️
 
-本程序中的`gpt-3.5-turbo`接口费用是$0.002 / 1K tokens，**每个账户有 \$18的免费额度**。这个价格是非常便宜的，免费额度对于个人日常需求而言已经足够，如果超过就需要付费了。查看目前使用量及额外付费👉👉[Open AI Account](https://platform.openai.com/account/usage)
+本程序中的`gpt-3.5-turbo`接口费用是$0.002 / 1K tokens，**每个账户有 \$18的免费额度（截止我注册时）**注意有到期时间
+
+查看目前使用量及额外付费👉👉[Open AI Account](https://platform.openai.com/account/usage)
 
 ![Step3_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/step5_02.png?raw=true)
 
