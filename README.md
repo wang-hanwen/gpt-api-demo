@@ -14,19 +14,23 @@
 
 **Python环境**
 
-电脑上需要有Python环境，以及`pip`安装工具。我本人用的是3.6以上版本（可以使用anaconda进行python版本的管理）。如何安装Python请自行百度～
+电脑上需要有Python环境，以及`pip`安装工具。我用的是3.6以上版本（可以使用anaconda进行python版本的管理）。如何安装Python请自行百度～
 
 ## Step 2
 
 **安装所需的包**
 
-注意：国内安装python包是通过镜像站（如清华大学镜像站），所以这一步请不要挂梯子
+注意：国内安装python包是通过镜像站（如清华大学镜像站），所以这一步请不要挂梯子🪜🪜
 
 ```python
 pip install --upgrade openai
 pip install --upgrade python-dotenv
 pip install --upgrade langchain
 ```
+
+
+
+---  接下来的步骤需要挂梯子🪜🪜 ---
 
 ## Step 3
 
@@ -43,7 +47,7 @@ API Key是一串包含字母和数字的字符。如图中介绍，不要将你�
 注意：
 
 - 其中需要将`openai.api_key`替换成**Step 3**中获取的专属API Key
-- 运行程序时需要**挂梯子**🪜🪜
+- 
 
 ```python
 import openai
@@ -105,6 +109,8 @@ while i <= 20:
 
 print("\n --- END ---")   
 ```
+
+
 
 ## Appendix
 
