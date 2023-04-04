@@ -132,7 +132,7 @@ print("\n --- END ---")
 
 ### 关于API调用收费‼️‼️
 
-本程序中的`gpt-3.5-turbo`接口费用是$0.002 / 1K tokens，**每个账户有 \$18的免费额度（截止我注册时）**注意有到期时间
+本程序中的`gpt-3.5-turbo`接口费用是$0.002 / 1K tokens，（截止我注册时）每个账户有 \$18的免费额度，注意有到期时间
 
 查看目前使用量及额外付费👉👉[Open AI Account](https://platform.openai.com/account/usage)
 
