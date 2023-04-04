@@ -1,14 +1,20 @@
 # 通过API调用实现chatGPT的傻瓜教程
 
-## 背景介绍
+## Intro
 
-本文介绍如何通过调用OpenAI的GPT api来实现chatGPT。国内使用chatGPT常遇到：
+本文介绍如何通过调用OpenAI的GPT api来实现chatGPT。作为一个简单的API调用训练。
 
-（1）某些梯子节点无法访问chatGPT网站（"Access Denied"）这一情况愈发严重
 
-（2）与chatGPT对话几轮之后，或间隔一会后无法继续对话（出现Error）必须刷新重来！😤😤
 
-通过api调用能够解决上述2个问题，能够实现比较稳定的连续对话，对访问节点的限制更少。身边有不少同学提出有这个需求。本文给出一个非常简单的GPT api调用教程，有任何不足欢迎反馈！请求大佬赐教！🫡🫡
+另外，国内使用chatGPT可能会遇到
+
+（1）与chatGPT对话1-2轮后，或间隔一会后，必须刷新重来
+
+（2）某些梯子节点无法访问chatGPT网站（"Access Denied"）
+
+![intro_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/intro_01.png?raw=true)
+
+API调用能够解决问题（1），实现比较稳定的连续对话。并在一定程度上回避问题（2），对访问节点的限制更少。本文给出一个非常简单的GPT API调用教程，有任何不足欢迎反馈！请求大佬赐教！🫡🫡
 
 ## Step 1
 
@@ -119,7 +125,7 @@ print("\n --- END ---")
 
 ### 报错解决
 
-- `Cannot connect to proxy` 梯子的代理问题，与节点无关，请更换梯子
+- `Cannot connect to proxy` 梯子的代理问题，与节点无关，请更换梯子。（读到这里，读者可能会问：那归根到底不还是梯子的问题吗？没错，一切的一切就是梯子的问题！）
 
 - `HTTPSConnectionPool(host='api.openai.com', port=443)`URL访问包版本问题，重装指定版本`urllib3`
 
