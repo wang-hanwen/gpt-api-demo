@@ -116,9 +116,9 @@ print("\n --- END ---")
 
 报错`Cannot connect to proxy` 梯子的代理问题，与节点无关，请更换梯子
 
-### 关于API调用收费‼️
+### 关于API调用收费‼️‼️
 
-本程序中的`gpt-3.5-turbo`接口费用是$0.002 / 1K tokens，每个账户有 \$18的trial credit。这个价格是非常便宜的，免费额度对于个人日常需求而言已经足够，如果超过就需要付费了。查看目前使用量及额外付费👉👉[Open AI Account](https://platform.openai.com/account/usage)
+本程序中的`gpt-3.5-turbo`接口费用是$0.002 / 1K tokens，**每个账户有 \$18的免费额度**。这个价格是非常便宜的，免费额度对于个人日常需求而言已经足够，如果超过就需要付费了。查看目前使用量及额外付费👉👉[Open AI Account](https://platform.openai.com/account/usage)
 
 <img src="step5_02.png" alt="step5_02" style="zoom:67%;" />
 
@@ -131,4 +131,4 @@ print("\n --- END ---")
 
 本文参考：
 
-- https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-chatgpt.md
+https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-chatgpt.md
