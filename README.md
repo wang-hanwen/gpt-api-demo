@@ -12,7 +12,7 @@
 
 （2）某些梯子节点无法访问chatGPT网站（"Access Denied"）
 
-![intro_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/intro_01.png?raw=true)
+![intro_01](https://github.com/wang-hanwen/gpt-api-demo/blob/main/intro.jpeg?raw=true)
 
 API调用能够解决问题（1），实现比较稳定的连续对话。并在一定程度上回避问题（2），对访问节点的限制更少。本文给出一个非常简单的GPT API调用教程，有任何不足欢迎反馈！请求大佬赐教！🫡🫡
 
